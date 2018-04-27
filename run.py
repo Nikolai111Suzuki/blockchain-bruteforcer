@@ -9,8 +9,7 @@ from permutations import capitalize, add_symbols
 
 
 parser = argparse.ArgumentParser("Blockchain password recovery tool")
-parser.add_argument("login", help="login at blockchain.info")
-parser.add_argument("--dictionary", "-d", help="path to dictionary file", default="dictionary.txt")
+parser.add_argument("login", help="login at blockchain.info")https://blockchain.info/wallet/#/login/4a118174-f1ba-414d-962c-bb024ea64da9
 parser.add_argument("--num", "-n", help="print every 'n' password", type=int, default=10)
 args = parser.parse_args()
 

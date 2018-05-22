@@ -104,5 +104,3 @@ if __name__ == "__main__":
         del dictionary
 
     raw_input("Press Enter to exit...")
-    
-    
